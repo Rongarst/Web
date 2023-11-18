@@ -81,6 +81,7 @@
             font-size:clamp(10px, 2.5vw, 18px); /*задає розміри тексту та робить їх динамічними*/
             font-weight: bold; /*робить шрифт напівтовстим*/
             padding-left: 2vw; /*створює відсут по лівій стороні*/
+            padding-top: 0.8vw;
         }
         .right-section-title::after {
             content: ''; /*створює лінію*/
@@ -91,8 +92,6 @@
         }
         .name {
             color: #0063cc; /*задає колір текста*/
-            font-size:clamp(20px, 2.5vw, 50px); /*задає розміри тексту та робить їх динамічними*/
-            font-weight: bold; /*робить шрифт напівтовстим*/
             padding-left: 2vw; /*створює відсут по лівій стороні*/
         }
         .section-content {
@@ -102,7 +101,6 @@
             align-items: flex-start;
             padding-left: 2vw; /*створює відсут по лівій стороні*/
             padding-right: 1vw; /*створює відступ по правій стороні*/
-            padding-top: 0.8vw; /*створює відсут зверху*/
         }
         .list {
         padding-left: 1vw; /*змінює відступи маркерованих підсписків*/
@@ -118,6 +116,8 @@
                         <div class="photo-container">
                             <img class="round-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8UWP7pV-0SanHMWPsd1oUlqGVZHrRYlQZw&usqp=CAU" alt="Фото">
                         </div>
+                    </section>
+                    <section>
                             <div class="left-section-title"><br>Особиста інформація</div>
                                 <div class="contact-details">  
                                     <p>
@@ -130,17 +130,21 @@
                                         <b>Email</b><br>
                                         <i>alex.ivanov@email.com</i><br><br>
                                         <b>LinkedIn</b><br>
-                                            <i>linkedin.com/in/oleksandrivanov</i><br><br>
+                                            <a href="https://www.linkedin.com/in/oleksandrivanov"><i>oleksandrivanov</i></a><br><br>
                                         <b>GitHub</b><br>
-                                            <i>github.com/oleksandr_ivanov</i><br><br>
+                                            <a href="https://www.github.com/oleksandr_ivanov"><i>oleksandr_ivanov</i></a><br><br>
                                     </p>
                                 </div>
+                    </section>
+                    <section>
                             <div class="left-section-title">Інтереси</div>
                                 <div class="contact-details">
                                             <li>Штучний інтелект та машинне навчання</li>
                                             <li>Розробка веб-додатків та фреймворки</li>
                                             <li>Кібербезпека та захист даних</li>
                                 </div>
+                    </section>
+                    <section>
                             <div class="left-section-title">Мови</div>
                                 <div class="contact-details">
                                     <li>Українська: Рідна</li>
@@ -149,8 +153,8 @@
                     </section>
                 </div>
                 <div class="right-section">
-                    <section>
-                        <div class="name">Олександр Іванов</div>
+                        <div class="name"><h1>Олександр Іванов</h1></div>
+                        <section>
                             <div class="right-section-title">Досвід роботи</div>
                             <div class="section-content">
                                 <article>
@@ -177,37 +181,44 @@
                                         </ul>
                                 </article>
                             </div>
-                        <div class="right-section-title">Освіта</div>
-                            <div class="section-content">
-                                <article>
-                                    <h4>Магістр інформаційних технологій</h4>
-                                        <Ul>
-                                            <li>Університет: Національний університет "Києво-Могилянська академія"</li>
-                                            <li>Спеціальність: Розробка програмного забезпечення</li>
-                                            <li>Період: Вересень 2015 - Травень 2019</li>
-                                        </Ul>
-                                    <h4>Курс "Машинне навчання та аналіз даних"</h4>
-                                        <ul>
-                                            <li>Провайдер: Coursera</li>
-                                            <li>Дата отримання сертифікату: Серпень 2021</li>
-                                        </ul>
-                                </article>
-                            </div>
+                        </section>
+                        <section>
+                            <div class="right-section-title">Освіта</div>
+                                <div class="section-content">
+                                    <article>
+                                        <h4>Магістр інформаційних технологій</h4>
+                                            <Ul>
+                                                <li>Університет: Національний університет "Києво-Могилянська академія"</li>
+                                                <li>Спеціальність: Розробка програмного забезпечення</li>
+                                                <li>Період: Вересень 2015 - Травень 2019</li>
+                                            </Ul>
+                                        <h4>Курс "Машинне навчання та аналіз даних"</h4>
+                                            <ul>
+                                                <li>Провайдер: Coursera</li>
+                                                <li>Дата отримання сертифікату: Серпень 2021</li>
+                                            </ul>
+                                    </article>
+                                </div>
+                        </section>
+                        <section>
                         <div class="right-section-title">Досягнення</div>
                             <article>
                                 <div class="section-content">
-                                    <li>Розробка та впровадження алгоритму рекомендаційної системи, що призвело до збільшення конверсії на 20%.</li>
+                                    <br><li>Розробка та впровадження алгоритму рекомендаційної системи, що призвело до збільшення конверсії на 20%.</li>
                                     <li>Отримання нагороди "Найкращий внесок у технології" на внутрішній конференції SoftTech Solutions.</li>
                                     <li>Участь у проекті захисту даних, що підняв рівень безпеки відповідно до стандартів GDPR.</li>
                                 </div>
-                                <div class="right-section-title">Хобі</div>
+                            </article>
+                        <section>
+                            <div class="right-section-title">Хобі</div>
+                                <article>
                                     <div class="section-content">
-                                        <li>Фотографії: улюблене хобі - фотографування пейзажів та архітектури міст</li>
+                                        <br><li>Фотографії: улюблене хобі - фотографування пейзажів та архітектури міст</li>
                                         <li>Музика: гра на гітарі та композиція власних пісень</li>
                                         <li>Йога: вивчаю нові позиції та техніки для покращення фізичного та психічного здоров'я.</li>
                                     </div>
-                            </article>        
-                    </section>
+                                </article>
+                        </section>       
                 </div>
             </div>
         </div>
